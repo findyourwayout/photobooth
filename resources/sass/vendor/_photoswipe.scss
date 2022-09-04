@@ -1,0 +1,37 @@
+.pswp__button--close,
+.pswp__button--qrcode,
+.pswp__button--print,
+.pswp__button--print-chroma-keying,
+.pswp__button--download,
+.pswp__button--mail {
+    color: $galleryButtonColor;
+    background: transparent !important;
+    font-size: 1.625em;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    >i {
+        position: relative;
+        z-index: -1;
+    }
+}
+
+.pswp__qr {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 10000;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+
+    img {
+        width: 100%;
+    }
+}

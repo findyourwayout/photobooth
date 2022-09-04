@@ -1,0 +1,70 @@
+:root {
+  --primary-color: transparent;
+  --secondary-color: transparent;
+  --font-color: transparent;
+  --button-font-color: transparent;
+  --start-font-color: transparent;
+  --countdown-color: transparent;
+  --background-countdown-color: transparent;
+  --cheese-color: transparent;
+  --panel-color: transparent;
+  --hover-panel-color: transparent;
+  --border-color: transparent;
+  --box-color: transparent;
+  --gallery-button-color: transparent;
+  --background-default: none;
+  --background-admin: none;
+  --background-chroma: none;
+  --fontSize: 16px; }
+
+#start .startInner {
+  border: 0 none;
+  border-radius: 10px; }
+
+#start .cups-button {
+  position: absolute;
+  left: 5px;
+  bottom: 5px; }
+
+.homebtn {
+  right: 5px;
+  top: 5px; }
+
+.resultInner .btn {
+  margin-left: 2px; }
+
+.sidenav .closebtn {
+  border-radius: 5px; }
+
+.btn {
+  border-radius: 10px; }
+
+.gallery__close {
+  border-radius: 5px; }
+
+.gallery__reload {
+  border-radius: 5px; }
+
+.gallery-button {
+  margin-top: 5px;
+  margin-left: 5px; }
+
+.admin-panel {
+  border: 0 none;
+  border-radius: 10px; }
+
+.panel .panel-heading {
+  margin-top: 2px;
+  border-radius: 5px; }
+
+.panel .panel-body {
+  margin-top: 1px;
+  border-radius: 5px; }
+
+.login-panel {
+  border: 0 none;
+  border-radius: 10px; }
+
+button {
+  border: 2px solid var(--border-color);
+  border-radius: 10px; }
